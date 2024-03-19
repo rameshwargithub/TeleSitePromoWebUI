@@ -1,39 +1,44 @@
 # TeleSitePromoWebUI
 
 ## Description
-TelegramBoost is a tool designed to help promote your website by connecting it with your Telegram channel. This tool provides functionality to seamlessly integrate your website with your Telegram channel, allowing you to easily share updates, news, and content with your audience on Telegram.
+TeleSitePromoWebUI is a web user interface (UI) project built with Next.js, designed to assist service providers in promoting Telegram channels. This project provides a user-friendly interface for managing and growing Telegram channels by integrating with websites.
 
 ## Features
-- Connect your website to your Telegram channel.
-- Automatically share website updates on your Telegram channel.
-- Customize the content shared on Telegram.
-- Easy setup and configuration.
+- Intuitive user interface for managing promotional activities.
+- Seamless integration with Telegram channels.
+- Responsive design for optimal user experience across devices.
+<!--- (Easily create and customize promotional content for sharing on Telegram.)
+Track promotional activities and channel growth.-->
+<!---
+your comment goes here
+and here
+-->
 
 ## Getting Started
-To get started with TelegramBoost, follow these steps:
+To get started with TeleSitePromoWebUI, follow these steps:
 1. Clone this repository to your local machine.
-2. Install the required dependencies.
-3. Configure the settings according to your Telegram channel and website.
-4. Run the application.
+2. Install the required dependencies using `npm install`.
+3. Configure the project settings and environment variables.
+4. Start the development server with `npm run dev`.
+5. Access the web UI in your browser at `http://localhost:3000`.
 
 ## Usage
-1. Configure your Telegram Bot and obtain the Bot Token.
-2. Set up the necessary permissions for the Bot to access your Telegram channel.
-3. Configure the webhook URL for your Telegram Bot.
-4. Customize the message format and content according to your preferences.
-5. Run the application to start sharing updates from your website to your Telegram channel.
+1. Sign in or register to get access.
+2. Connect your Telegram channel to TeleSitePromoWebUI.
 
 ## Configuration
-The configuration for TelegramBoost can be found in the `config.json` file. Here, you can specify the Bot Token, Telegram channel ID, webhook URL, and customize the message format.
+The configuration for TeleSitePromoWebUI can be found in the `.env` file. Here, you can specify environment variables such as API keys, database connections, and other settings.
 
-```json
-{
-  "telegram": {
-    "bot_token": "YOUR_BOT_TOKEN",
-    "channel_id": "YOUR_CHANNEL_ID",
-    "webhook_url": "YOUR_WEBHOOK_URL"
-  },
-  "message": {
-    "format": "New post on our website: [Title](URL)"
-  }
-}
+Example `.env` file:
+
+
+## Contributing
+Contributions to TeleSitePromoWebUI are welcome! If you encounter any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+<!--## License
+TeleSitePromoWebUI is licensed under the [MIT License](LICENSE).-->
+
+## Contact
+For any inquiries or support, please [contact](mailto:rpm10@iitbbs.ac.in).
+
+
